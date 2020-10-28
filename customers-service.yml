@@ -26,8 +26,8 @@ server:
 eureka:
   #workaround, what about multiple instances?
 #  preferIpAddress: true
-#  instance:
-#    hostname: customer-service.apps.sys.tas.tkgi.haas-451.pez.vmware.com
+  instance:
+    hostname: customers-service.apps.sys.tas.tkgi.haas-451.pez.vmware.com
   client:
     serviceUrl:
       defaultZone: https://discovery-server.apps.sys.tas.tkgi.haas-451.pez.vmware.com/eureka/
