@@ -1,0 +1,12 @@
+﻿server:
+  port: 443
+
+eureka:
+  instance:
+    hostname: discovery-server.apps.sys.tas.tkgi.haas-451.pez.vmware.com
+  # standalone mode
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: https://${eureka.instance.hostname}:${server.port}/eureka/
