@@ -20,10 +20,10 @@ eureka:
 spring:
   profiles: cloud
   zipkin:
-    baseUrl: https://tracing-server
+    baseUrl: https://tracing-server.apps.sys.tas.tkgi.haas-451.pez.vmware.com/
 server:
   port: 8080
 eureka:
   client:
     serviceUrl:
-      defaultZone: https://discovery-server/eureka/
+      defaultZone: https://discovery-server.apps.sys.tas.tkgi.haas-451.pez.vmware.com/eureka/

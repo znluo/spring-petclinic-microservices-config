@@ -22,4 +22,4 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: https://discovery-server/eureka/
+      defaultZone: https://discovery-server.apps.sys.tas.tkgi.haas-451.pez.vmware.com/eureka/
