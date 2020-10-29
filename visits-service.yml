@@ -26,6 +26,7 @@ server:
 eureka:
   instance:
     hostname: visits-service.apps.sys.tas.tkgi.haas-451.pez.vmware.com
+    securePortEnabled: true
   client:
     serviceUrl:
       defaultZone: https://discovery-server.apps.sys.tas.tkgi.haas-451.pez.vmware.com/eureka/
