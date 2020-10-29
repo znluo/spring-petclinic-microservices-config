@@ -28,7 +28,9 @@ eureka:
 #  preferIpAddress: true
   instance:
     hostname: customers-service.apps.sys.tas.tkgi.haas-451.pez.vmware.com
+    nonSecurePortEnabled: false
     securePortEnabled: true
+    secure-port: 443
   client:
     serviceUrl:
       defaultZone: https://discovery-server.apps.sys.tas.tkgi.haas-451.pez.vmware.com/eureka/
